@@ -1,0 +1,17 @@
+<div class="row" *ngIf="_accounts.length === 0">
+    <div class="alert alert-info">
+      <strong>No account yet</strong> Please add it...
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="acc col-md-12" *ngFor="let acc of _accounts, let i=index"
+        (click)="_showDetails(acc)">
+      <h3>{{acc.title}} ({{acc.id}})</h3>
+      <p>{{acc.description}}</p>
+      <p>Balance:
+        <strong class="lead">{{acc.balance}}</strong>
+      </p>
+      <button class="btn btn-danger" (click)="_remove(i)">Delete</button>
+    </div>
+  </div>

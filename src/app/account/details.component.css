@@ -1,0 +1,43 @@
+.details {
+  margin-top: 32px;
+}
+
+.detail-label {
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  margin-right: -8px;
+  margin-top: 9px;
+  color: #888;
+}
+
+.detail-data {
+  text-align: left;
+  font-size: 24px;
+}
+
+.detail-tran {
+  width: 100%;
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-top: 24px;
+  padding: 72px 12px 0 12px;
+}
+
+.detail-tran:before {
+  content: "Transactions";
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  color: #888;
+}
+
+
+.detail-tran .label {
+  margin: 2px;
+}

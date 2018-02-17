@@ -1,0 +1,15 @@
+.acc {
+  background-color: #bbb;
+  padding: 10px 24px;
+  margin: 8px;
+  color: black;
+  cursor: pointer;
+}
+
+.acc:first-child {
+  border-top: 1px solid #ddd;
+}
+
+.acc:hover {
+  background-color: #8cce40;
+}
