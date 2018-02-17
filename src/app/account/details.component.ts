@@ -62,6 +62,7 @@ export class DetailsComponent implements OnInit, OnDestroy {
       accountId: 1
     };
 
+    // updating nextid
     this._nextId++;
     return newTrans;
   }
